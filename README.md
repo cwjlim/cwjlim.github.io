@@ -1,2 +1,2 @@
-# cwjlim.github.io
-Portfolio
+#Hi! My name is Christopher Lim. Welcome to my portfolio website!
+
