@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christopher Lim — Portfolio</title>
+  <title>Chris Lim — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -28,14 +28,11 @@
   <section id="hero">
     <div class="hero-content">
       <p class="hero-greeting">Hi, my name is</p>
-      <h1 class="hero-name">Christopher Lim.</h1>
+      <h1 class="hero-name">Chris Lim.</h1>
       <h2 class="hero-tagline">I build things that scale.</h2>
       <p class="hero-description">
-        I'm a CS &amp; Math student at the University of Maryland building
-        high-throughput systems and products at scale. I've interned at
-        <span class="highlight">Stripe</span>, <span class="highlight">AWS</span>,
-        <span class="highlight">Capital One</span>, and next up,
-        <span class="highlight">Two Sigma</span>.
+        I'm a CS &amp; Math student at the University of Maryland shipping
+        high-throughput systems and products to production.
       </p>
       <a href="#experience" class="hero-cta">See my work &darr;</a>
     </div>
@@ -50,7 +47,7 @@
         <div class="exp-card-inner">
           <div class="exp-header">
             <div class="exp-company-logo twosigma-logo">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.66 3.82L12 11.82 4.34 8 12 4.18zM4 9.34l7 3.5V19.5l-7-3.5V9.34zm10 10.16v-6.66l7-3.5v6.66l-7 3.5z"/></svg>
+              <img src="logos/two_sigma_logo.png" alt="Two Sigma logo" />
             </div>
             <div>
               <h3 class="exp-company">Two Sigma</h3>
@@ -71,7 +68,7 @@
         <div class="exp-card-inner">
           <div class="exp-header">
             <div class="exp-company-logo stripe-logo">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.591-7.305z"/></svg>
+              <img src="logos/stripe_logo.png" alt="Stripe logo" />
             </div>
             <div>
               <h3 class="exp-company">Stripe</h3>
@@ -80,16 +77,14 @@
             </div>
           </div>
           <p class="exp-description">
-            Publishing a new feature to update customer information during checkout sessions to production
-            for 100k+ users. Building concurrent, high-throughput, low-latency APIs handling $6B+ volume
-            in Stripe Payments. Storing, verifying, and fetching sensitive customer and merchant data in
-            SQL relational databases.
+            Publishing a new feature to enable logging in during checkout sessions to production for 100k+ Stripe users. 
+            Storing, verifying, and fetching sensitive customer and merchant information in a database.
+            Working on concurrent, high-throughput, low-latency APIs to handle $6B+ volume in Stripe Payments.
           </p>
           <div class="exp-tags">
             <span>Ruby</span>
-            <span>SQL</span>
             <span>APIs</span>
-            <span>Payments</span>
+            <span>Concurrency</span>
           </div>
         </div>
       </div>
@@ -98,7 +93,7 @@
         <div class="exp-card-inner">
           <div class="exp-header">
             <div class="exp-company-logo aws-logo">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.374 6.18 6.18 0 0 1-.248-.47c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.296.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36A4.84 4.84 0 0 1 5.1 5.6c.757 0 1.309.168 1.66.503.35.336.526.847.526 1.534v2.398h-.024zM3.41 11.14c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.526.767a.477.477 0 0 1-.304-.072c-.064-.048-.12-.16-.168-.311L7.41 5.403c-.048-.16-.072-.263-.072-.311 0-.127.064-.2.191-.2h.783c.16 0 .272.023.328.072.064.048.112.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.152-.312a.58.58 0 0 1 .336-.072h.638c.16 0 .272.023.336.072.064.048.12.16.152.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .327-.072h.743c.128 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.191l-2.1 6.121c-.048.16-.104.263-.168.311a.51.51 0 0 1-.312.072h-.687c-.16 0-.271-.024-.335-.072-.064-.048-.12-.16-.152-.32l-1.238-5.148-1.23 5.14c-.04.16-.088.272-.152.32-.064.048-.183.072-.335.072h-.687zm10.118.2c-.415 0-.83-.048-1.229-.152-.399-.104-.71-.216-.918-.344-.128-.08-.216-.168-.24-.248a.604.604 0 0 1-.04-.216v-.407c0-.167.064-.247.183-.247a.451.451 0 0 1 .144.024c.048.016.12.048.2.08.271.12.566.216.878.28.32.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.415-.287-.806-.415l-1.157-.36c-.583-.183-1.014-.455-1.277-.815a1.902 1.902 0 0 1-.4-1.19c0-.343.072-.646.224-.903.152-.264.343-.487.584-.67.24-.192.518-.335.838-.432.32-.096.655-.136 1.006-.136.176 0 .36.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.533-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.16.152.454.304.87.44l1.133.358c.574.184.99.44 1.237.767.248.328.367.703.367 1.117 0 .351-.072.671-.207.95-.144.28-.335.527-.583.727-.248.208-.543.36-.886.464a3.853 3.853 0 0 1-1.117.16z"/></svg>
+              <img src="logos/aws_logo.webp" alt="Amazon Web Services logo" />
             </div>
             <div>
               <h3 class="exp-company">Amazon Web Services</h3>
@@ -109,15 +104,13 @@
           <p class="exp-description">
             Publishing a new EBS cloud archive service to production for 100k+ users. Designed a distributed
             transaction metering system to generate customer bills from real-time EBS usage data. Developed
-            an alarmed testing framework monitoring EBS copy, archive, and restore across 30+ regions.
-            Proactively fixed critical bugs including a KMS race condition and stuck backup jobs. Published
-            50+ code reviews, 10k+ lines of code, 3 design docs, and 100% unit test coverage.
+            an alarmed testing framework monitoring EBS copy, archive, and restore across 30+ regions. 
+            Collaborated with PMs to create two new billing SKUs for cold storage (GB/hr) and restore (GB).
           </p>
           <div class="exp-tags">
             <span>Java</span>
             <span>Distributed Systems</span>
-            <span>EBS</span>
-            <span>Billing</span>
+            <span>Cloud Computing</span>
           </div>
         </div>
       </div>
@@ -126,7 +119,7 @@
         <div class="exp-card-inner">
           <div class="exp-header">
             <div class="exp-company-logo capitalone-logo">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              <img src="logos/capital_one_logo.png" alt="Capital One logo" />
             </div>
             <div>
               <h3 class="exp-company">Capital One</h3>
@@ -136,15 +129,11 @@
           </div>
           <p class="exp-description">
             Published a feature to reserve workspaces in Capital One Caf&eacute;s for 35k+ mobile app customers.
-            Integrated cross-platform features in large Swift and Kotlin codebases for iOS and Android.
             Collaborated with design and product to translate Figma designs into production-ready UI.
-            Self-initiated a second project: an AI chatbot to find ATMs, check balances, and initiate deposits.
           </p>
           <div class="exp-tags">
             <span>Swift</span>
-            <span>Kotlin</span>
             <span>iOS</span>
-            <span>Android</span>
           </div>
         </div>
       </div>
@@ -165,7 +154,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
             </div>
             <div class="project-links">
-              <a href="#" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+              <a href="https://github.com/cwjlim" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
             </div>
           </div>
           <h3 class="project-title">3D Physics Engine</h3>
@@ -189,7 +178,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
             </div>
             <div class="project-links">
-              <a href="#" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+              <a href="https://github.com/cwjlim" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
             </div>
           </div>
           <h3 class="project-title">Bible Verse Generator</h3>
@@ -214,7 +203,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             </div>
             <div class="project-links">
-              <a href="#" aria-label="External Link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+              <a href="https://aaushi.info" target="_blank" rel="noopener noreferrer" aria-label="External Link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
             </div>
           </div>
           <h3 class="project-title">Aaushi.info</h3>
@@ -269,7 +258,7 @@
       <div class="about-image-wrapper">
         <div class="about-image">
           <div class="about-image-placeholder">
-            <span>CL</span>
+            <img src="logos/ProfProfile.jpeg" alt="Chris Lim" />
           </div>
           <div class="about-image-border"></div>
         </div>
